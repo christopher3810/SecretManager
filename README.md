@@ -47,7 +47,8 @@ The Spring Boot web service exposes an API that allows clients to interact with 
 
 ## **Functionality**
 
-This module provides the following functionality:
+모듈의 주요 기능.\
+This module provides the following functionality
 
 1. user member 관련 정보를 redis에 캐싱하여 성능적 이점 확보 및 동시접속 이슈 회피
 2. vault를 활용한 대한 인증 및 권한 부여
@@ -89,7 +90,6 @@ dependencies {
 To use this module in your Spring Boot web service, you can autowire the **`SecretManagerService`** class and use its methods to store and retrieve member secrets and membership information from Redis.
 
 ```
-javaCopy code
 @RestController
 @RequestMapping("/members")
 public class MemberController {
