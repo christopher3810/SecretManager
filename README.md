@@ -8,6 +8,10 @@
 Vault, Redis, Spring Boot를 활용하여 회원 비밀 번호 및 정보를 저장하고 관리하는 모듈.\
 회원 비밀번호를 관리하는 모든 Spring Boot 기반 웹 서비스에서 dependency를 추가하여 사용.
 
+초기 목표 
+1. docker container 실습 환경 구축 및 readme 에 필요 명령어 정리.
+2. Vault , Redis, Spring Service 연동
+
 <br>
 
 ## **Architecture**
