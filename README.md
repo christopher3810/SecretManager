@@ -18,7 +18,7 @@ Vault, Redis, Spring Boot를 활용하여 회원 비밀 번호 및 정보를 저
 
 초기 설계 구성
 
-![scm_arch](https://user-images.githubusercontent.com/61622657/225189132-3fb481f3-1b38-498d-8155-02af7c7390b4.png)
+![scm_arch_dark_advenced](https://user-images.githubusercontent.com/61622657/225190246-7a2544a0-ea1e-4503-ae0e-9cf99ec1a800.png)
 
 
 Redis 데이터베이스는 회원 비밀번호와 멤버십 정보를 저장하는 데 사용되며, Vault 서버는 Redis 데이터베이스에 액세스하는 데 사용되는 비밀번호를 안전하게 관리하는 데 사용.
