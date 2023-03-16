@@ -26,8 +26,8 @@ public class UserEntity {
     private String name;
     private String castle;
 
-    @Column(name = "email_address")
-    private String emailAddress;
+    @Column(name = "email")
+    private String email;
 
     private String password;
 
