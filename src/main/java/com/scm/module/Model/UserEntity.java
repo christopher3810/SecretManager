@@ -24,11 +24,13 @@ public class UserEntity {
     private Long id;
 
     private String name;
+
     private String castle;
 
     @Column(name = "email")
     private String email;
 
+    @Setter
     private String password;
 
     private LocalDate birthday;

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "redis")
 @Component
-public class ExternalRedisProperties im{
+public class ExternalRedisProperties {
     private String host;
     private int port;
 }

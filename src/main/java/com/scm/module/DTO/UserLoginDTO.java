@@ -1,4 +1,4 @@
-package com.scm.module.Model;
+package com.scm.module.DTO;
 
 import lombok.Getter;
 import lombok.Setter;

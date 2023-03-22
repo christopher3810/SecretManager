@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "vault")
-@Component 
+@Component
 public class ExternalVaultProperties{
     @Getter
     private String url;
