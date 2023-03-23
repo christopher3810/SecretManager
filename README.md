@@ -3,6 +3,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/christopher3810/SecretManager?style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/christopher3810/SecretManager?style=flat-square)
 
 
+### SecretManager Module
+
+![secretManager](https://user-images.githubusercontent.com/61622657/227187575-5b955ec3-44fa-47b5-be8d-748db4fe0513.png)
+
+
+
 ## **Concept 및 초기 설계** 💡
 <br>
 
