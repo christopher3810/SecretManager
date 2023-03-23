@@ -5,7 +5,7 @@
 
 ### SecretManager Module
 
-![secretManager](https://user-images.githubusercontent.com/61622657/227187575-5b955ec3-44fa-47b5-be8d-748db4fe0513.png)
+![secretManager_under50pc](https://user-images.githubusercontent.com/61622657/227206522-a586e0b1-9d68-4a8f-ba0a-0bc8c8d5978a.png)
 
 
 
