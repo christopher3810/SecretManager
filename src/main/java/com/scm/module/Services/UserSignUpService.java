@@ -5,6 +5,7 @@ import com.scm.module.Exception.UserAlreadyExistsException;
 import com.scm.module.Model.UserEntity;
 import com.scm.module.Repository.UserRedisRepository;
 import com.scm.module.Repository.UserRepository;
+import com.scm.module.enums.Role;
 import com.scm.module.validator.UserValidator;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -33,6 +34,7 @@ public class UserSignUpService {
     }
 
     public Mono<UserEntity> signUp(UserEntity user) {
+        user.setRole(Role.ROLE_USER);
         return Mono.defer(() -> {
             encodePassword(user);
             return userRepository.save(user)

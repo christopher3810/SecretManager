@@ -68,6 +68,7 @@ public class UserLoginService {
         loginResponseDTO.setEmail(user.getEmail());
         loginResponseDTO.setName(user.getName());
         loginResponseDTO.setToken(token);
+        loginResponseDTO.setRole(user.getRole());
         // Set any other necessary user information in the response DTO
         return loginResponseDTO;
     }
