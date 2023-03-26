@@ -91,12 +91,59 @@ public class MemberController {
 
 ## **Configuration** ⚙️
 
-**`application.properties`** or **`application.yml`**  값에 설정값이 필요한 경우 추가 가이드
+위 프로젝트를 의존성 추가해서 사용하기 위해서는 아래와 같은 Config 설정이 필요합니다.
 
-- 예시
+```yaml
 
-```yml
-spring.redis.host=redis-host
-spring.redis.port=6379
+# Email configuration
+app:
+  base-url: https://${your-application-url}.com
+  email:
+    sender: ${your-email@example}.com
+    mail-host: smtp.example.com
+    mail-port: 587
+    mail-username: ${EMAIL_USERNAME}
+    mail-password: ${EMAIL_PASSWORD}
+    mail-smtp-auth: true
+    mail-smtp-starttls-enable: true
+
+# JWT configuration# JWT configuration
+    
+jwt:
+  secret: ${JWT_SECRET}
+  refreshTokenExpirationInMs: 86400000
+
+
+# Database configuration
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+# Reactive Redis configuration
+spring:
+  redis:
+    reactive:
+      url: redis://${REDIS_HOST}:${REDIS_PORT}
+
+# Vault configuration
+spring:
+  cloud:
+    vault:
+      token: ${VAULT_TOKEN}
+      scheme: https
+      host: ${VAULT_HOST}
+      port: ${VAULT_PORT}
+      config:
+        order: -10
 
 ```
+
