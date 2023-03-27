@@ -7,11 +7,17 @@ plugins {
 group = 'com.scm'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '19'
+targetCompatibility = '19'
 
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
 	}
+}
+
+bootJar{
+	archiveBaseName = "secret-manager"
+	archiveVersion = "0.0.1"
 }
 
 repositories {
