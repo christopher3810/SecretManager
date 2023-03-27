@@ -15,12 +15,6 @@ configurations {
 	}
 }
 
-bootJar {
-	archiveBaseName = 'SecretManager'
-	archiveClassifier = ''
-	archiveVersion = 'jitpack-test-0.0.1'
-}
-
 repositories {
 	mavenCentral()
 }
