@@ -18,6 +18,11 @@ publishing {
 }
 // maven-publish 추가 끝
 
+jar {
+	enabled = true
+	archiveClassifier.set(null)
+}
+
 group = 'com.scm'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '19'
