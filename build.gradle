@@ -15,9 +15,10 @@ configurations {
 	}
 }
 
-bootJar{
-	archiveBaseName = "secret-manager"
-	archiveVersion = "0.0.1"
+bootJar {
+	archiveBaseName = 'SecretManager'
+	archiveClassifier = ''
+	archiveVersion = 'jitpack-test-0.0.1'
 }
 
 repositories {
