@@ -17,10 +17,12 @@ publishing {
 	}
 }
 // maven-publish 추가 끝
+bootJar{
+	enabled = false
+}
 
 jar {
-	enabled = true
-	archiveClassifier.set(null)
+	enabled = false
 }
 
 group = 'com.scm'
