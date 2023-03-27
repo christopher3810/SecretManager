@@ -16,14 +16,6 @@ publishing {
 		}
 	}
 }
-// maven-publish 추가 끝
-bootJar{
-	enabled = false
-}
-
-jar {
-	enabled = false
-}
 
 group = 'com.scm'
 version = '0.0.1-SNAPSHOT'
