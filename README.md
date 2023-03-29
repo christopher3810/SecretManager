@@ -51,13 +51,26 @@ This module provides the following functionality
 
 <br>
 
-## **Installation**  💾
+## Dependency Installation 💾
 
-가능하다면 installation 까지 지원하기
+1. jitpack으로 배포
+2. plain.jar 사용
+3. build.gradle에 아래 와 같이 입력후 lib 다운로드 후사용.
+
 
 ```gradle
+
+₩₩
+//...
+
+repositories {
+//...
+    maven { url 'https://jitpack.io' }
+}
+
 dependencies {
-    implementation 'com.example:secret-manager-boot:1.0.0'
+    //...
+    implementation 'com.github.christopher3810:SecretManager:${relase_version}:plain'
 }
 
 ```
@@ -147,3 +160,10 @@ spring:
 
 ```
 
+## License
+
+### MIT License
+
+<br>
+
+![rainbow](https://media.tenor.com/S-TQKsUL38YAAAAC/rainbow-spongebob.gif)
