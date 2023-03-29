@@ -60,7 +60,6 @@ This module provides the following functionality
 
 ```gradle
 
-₩₩
 //...
 
 repositories {
