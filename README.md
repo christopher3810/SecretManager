@@ -5,9 +5,9 @@
 
 ### SecretManager Module
 
-<img src="https://user-images.githubusercontent.com/61622657/229943926-164d1ccd-9414-4eae-94a2-7bffe29b0de8.jpg" width="500" height="500">
-
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/61622657/229943926-164d1ccd-9414-4eae-94a2-7bffe29b0de8.jpg" width="350" height="350">
+</p>
 
 
 ## **Concept 및 초기 설계** 💡
