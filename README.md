@@ -1,4 +1,6 @@
 
+<br>
+
 <div align="center">
     <img src="https://user-images.githubusercontent.com/61622657/229943926-164d1ccd-9414-4eae-94a2-7bffe29b0de8.jpg" width="350" height="350">
     <h1>SecretManager Module 🤫</h1>
@@ -6,6 +8,7 @@
     <img src="https://img.shields.io/github/stars/christopher3810/SecretManager?style=flat-square" alt="GitHub Repo stars" />
 </div>
 
+<br>
 
 ## **Concept 및 초기 설계** 💡
 <br>
