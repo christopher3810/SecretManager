@@ -1,12 +1,10 @@
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/61622657/229943926-164d1ccd-9414-4eae-94a2-7bffe29b0de8.jpg" width="350" height="350">
-
-# **SecretManager Module** 🤫
-
-</p>
-
-![GitHub last commit](https://img.shields.io/github/last-commit/christopher3810/SecretManager?style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/christopher3810/SecretManager?style=flat-square)
+    <h1>SecretManager Module 🤫</h1>
+    <img src="https://img.shields.io/github/last-commit/christopher3810/SecretManager?style=flat-square" alt="GitHub last commit" />
+    <img src="https://img.shields.io/github/stars/christopher3810/SecretManager?style=flat-square" alt="GitHub Repo stars" />
+</div>
 
 
 ## **Concept 및 초기 설계** 💡
