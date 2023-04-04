@@ -5,7 +5,8 @@
 
 ### SecretManager Module
 
-![AgentD](https://user-images.githubusercontent.com/61622657/229942766-5c32b211-174d-490c-b7f1-7a06ccbead89.jpg)
+<img src="https://user-images.githubusercontent.com/61622657/229943926-164d1ccd-9414-4eae-94a2-7bffe29b0de8.jpg" width="500" height="500">
+
 
 
 
