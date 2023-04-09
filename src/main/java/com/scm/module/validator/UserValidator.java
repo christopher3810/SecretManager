@@ -1,26 +1,27 @@
 package com.scm.module.validator;
 
 import com.scm.module.DTO.UserDTO;
+import com.scm.module.DTO.UserLoginDTO;
 import com.scm.module.Exception.UserAlreadyExistsException;
 import org.springframework.stereotype.Component;
 
 @Component
 public class UserValidator {
-//
-//    // Validation logic for user login
-//    public void validateUserLogin(UserLoginDTO userLoginDTO) {
-//        if (userLoginDTO == null) {
-//            throw new IllegalArgumentException("User login data must not be null");
-//        }
-//
-//        if (userLoginDTO.getEmail() == null || userLoginDTO.getEmail().trim().isEmpty()) {
-//            throw new IllegalArgumentException("Email must not be empty");
-//        }
-//
-//        if (userLoginDTO.getPassword() == null || userLoginDTO.getPassword().trim().isEmpty()) {
-//            throw new IllegalArgumentException("Password must not be empty");
-//        }
-//    }
+
+    // Validation logic for user login
+    public void validateUserLogin(UserLoginDTO userLoginDTO) {
+        if (userLoginDTO == null) {
+            throw new IllegalArgumentException("User login data must not be null");
+        }
+
+        if (userLoginDTO.getEmail() == null || userLoginDTO.getEmail().trim().isEmpty()) {
+            throw new IllegalArgumentException("Email must not be empty");
+        }
+
+        if (userLoginDTO.getPassword() == null || userLoginDTO.getPassword().trim().isEmpty()) {
+            throw new IllegalArgumentException("Password must not be empty");
+        }
+    }
 
     // Validation logic for user signup
     public void validateUserSignup(UserDTO userDTO) {
