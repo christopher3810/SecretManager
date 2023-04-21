@@ -70,7 +70,7 @@ repositories {
 
 dependencies {
     //...
-    implementation 'com.github.christopher3810:SecretManager:${relase_version}:plain'
+    implementation 'com.github.christopher3810:SecretManager:${release_version}:plain'
 }
 
 ```
